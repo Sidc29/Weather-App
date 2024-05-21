@@ -4,14 +4,14 @@ import "react-loading-skeleton/dist/skeleton.css";
 const CustomSkeletonTheme = ({ count, height, width, borderRadius }) => {
   return (
     <SkeletonTheme baseColor="#202020" highlightColor="#444">
-      <p>
+      <>
         <Skeleton
           count={count}
           height={height}
           width={width}
           borderRadius={borderRadius}
         />
-      </p>
+      </>
     </SkeletonTheme>
   );
 };
