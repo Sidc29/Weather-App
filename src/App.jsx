@@ -51,7 +51,6 @@ const App = () => {
   if (loading) return <Loading />;
 
   return (
-    <div className="wrapper">
       <div className="container">
         <div className="weather__header">
           <form className="weather__search" onSubmit={handleSubmit}>
@@ -141,7 +140,6 @@ const App = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
