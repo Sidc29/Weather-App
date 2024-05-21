@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -153,6 +153,10 @@ input::placeholder {
 }
 
 @media (max-width: 400px) {
+  .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .weather__info {
     grid-template-columns: none;
   }
