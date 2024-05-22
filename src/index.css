@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: #272727;
+}
+
 .container {
   background: #171717;
   color: #fff;
